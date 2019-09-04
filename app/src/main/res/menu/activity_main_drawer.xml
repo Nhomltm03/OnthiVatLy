@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/home"
+        android:icon="@drawable/new1"
+        android:title="Thông tin mới" />
+        <item
+            android:id="@+id/pdfviewer"
+            android:icon="@drawable/book3"
+            android:title="Tổng hợp kiến thức" />
+
+    </group>
+
+    <item android:title="Đề thi trắc nghiệm">
+        <menu>
+
+            <item
+                android:id="@+id/cauhoisongco"
+                android:icon="@drawable/songco"
+                android:title="Câu hỏi Sóng cơ" />
+            <item
+                android:id="@+id/cauhoidienxoaychieu"
+                android:icon="@drawable/dienxoaychieu"
+                android:title="Câu hỏi Điện xoay chiều" />
+            <item
+                android:id="@+id/cauhoithaukinh"
+                android:icon="@drawable/langkinh"
+                android:title="Câu hỏi Thấu kính" />
+            <item
+                android:id="@+id/cauhoihatnhan"
+                android:icon="@drawable/hatnhan"
+                android:title="Câu hỏi Phản ứng hạt nhân" />
+            <item
+                android:id="@+id/dethidaihoc"
+                android:icon="@drawable/test90"
+                android:title="Đề thi Đại học" />
+
+
+        </menu>
+    </item>
+
+</menu>
